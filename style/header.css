@@ -78,6 +78,30 @@
 }
 
 .right-section {
-  background-color: blueviolet;
-  width: 200px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.upload-icon {
+
+  height: 24px;
+}
+
+.youtube-apps-icon {
+
+  height: 24px;
+}
+
+.notifications-icon {
+
+  height: 20px;
+}
+
+.current-user-profile-picture {
+  height: 32px;
+  border-radius: 16px;
 }
