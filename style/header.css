@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(211, 210, 210);
 }
 
 .left-section {
@@ -84,20 +92,18 @@
   flex-direction: row;
   justify-content: space-between;
   margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .upload-icon {
-
   height: 24px;
 }
 
 .youtube-apps-icon {
-
   height: 24px;
 }
 
 .notifications-icon {
-
   height: 20px;
 }
 
